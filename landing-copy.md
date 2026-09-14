@@ -134,17 +134,32 @@ Jeśli nie — prawdopodobnie już czujesz, że to jest przestrzeń dla Ciebie.
 
 **Tymoteusz Niemiec — Męska Strona Emocji.**
 
-Od lat prowadzi mężczyzn przez pracę z emocjami i męskie kręgi — na żywo, w ciszy, w górach i w rozmowie. Twórca Męskiej Strony Emocji, autor podcastu, prowadzący wyjazdów Męska Cisza i wypraw dla ojców i synów na Kilimandżaro.
+11 lat pracy własnej: terapia, warsztaty, ceremonie. Przez jego kręgi i warsztaty — łącznie z festiwalami — przeszło już około 700 mężczyzn.
+
+Certyfikowany w Szkole Szamanizmu Roberta Rienta, w szkoleniach biznesowych Adama Grzesika oraz w terapii wspomaganej MDMA. Twórca Męskiej Strony Emocji, autor podcastu, prowadzący wyjazdów Męska Cisza i wypraw dla ojców i synów na Kilimandżaro.
 
 Nie pracuje z teorii. Pracuje z tego, co realnie dzieje się w mężczyźnie, który siada naprzeciwko.
-
-> ⚑ **Do uzupełnienia przez Tymka (to jest sekcja autorytetu — musi być konkretna):** ile lat prowadzi, ilu mężczyzn przeszło przez jego kręgi/warsztaty, wykształcenie / szkolenia / certyfikaty, ewentualne większe sceny/festiwale. Im twardsze liczby, tym mocniej ta sekcja pracuje na konwersję.
 
 ---
 
 ## 10 · GŁOSY MĘŻCZYZN
 
-> ⚑ **Placeholder — do zebrania przed startem.** Fundamenty są nowe, więc na tę pierwszą kohortę weź 3–5 świadectw z dotychczasowej pracy Tymka na żywo (Męska Cisza, warsztaty, kręgi). Format: imię (lub inicjał) + jedno-dwa zdania o konkretnej zmianie. Po pierwszej kohorcie podmienicie je na świadectwa z samych Fundamentów.
+> Głosy z dotychczasowej pracy Tymoteusza na żywo — kręgi, warsztaty i wyprawy. Po pierwszej kohorcie Fundamentów podmienimy je na świadectwa z samego programu.
+
+> *„Wyprawę z Tymoteuszem polecam każdemu, kto szuka przewodnika i towarzysza najwyższej klasy, osoby godnej zaufania, z ogromnym doświadczeniem, która nie wymądrza się, ale potrafi słuchać, patrzeć i wyczuwać potrzeby innych, jak i wspierać. Tymek poprowadzi grupę, ale też cierpliwie poczeka na tego, kto zostanie z tyłu. Jednocześnie dba o atmosferę i przestrzeganie zasad, dzięki czemu każdy może czuć się bezpiecznie, komfortowo i wyluzować, pomimo ogromnej różnorodności wydarzeń."*
+> **— Witek**, Kolumbia 2026
+
+> *„Nigdy nie zapomnę momentów, kiedy po prostu potrzebowałem czyjejś obecności, kiedy rzeczy zaczynały być zbyt intensywne, a Tymoteusz, mimo własnego zmęczenia, patrząc mi prosto w oczy, z obecnością za nimi, zapewnił mi wsparcie. Czuję, że to, jakie wartości i cechy emanują z tego człowieka, zainspirowało mnie, żeby starać się odpłacać każdemu człowiekowi obecnością i zapewnieniem wsparcia w drodze do znalezienia własnej siły."*
+> **— Maciej**, Kolumbia 2025
+
+> *„Czuć szacunek nie tylko przez samą dość surową aparycję, ale po krótkim czasie wiesz, że za tym idzie też struktura, która w męskim jest bardzo pożądana, ponieważ struktura właśnie jest w stanie nadać nam ramy naszego zachowania i dojście do założonych celów. Duża wiedza na tematy relacyjne, duchowe, rodzinne."*
+> **— Karol S.**, Kolumbia 2026
+
+> *„Najbardziej w warsztatach prowadzonych przez Tymoteusza podobało mi się to, że integruje różne perspektywy — od intelektualnej, przez fizyczną, emocjonalną, po duchową. Robi to w sposób spójny i niedogmatyczny. Warsztaty prowadzi w sposób elastyczny i dojrzały. Bardzo polecam."*
+> **— Andrzej**, warsztaty „Mężczyzna w relacji"
+
+> *„Każda minuta warsztatu była po coś — logiczna, potrzebna i magiczna. Był krąg, procesy, ćwiczenia, ruch, medytacje, ceremonia ognia. Dużo serca, wzajemnego wsparcia, łez wzruszenia, spotkania z lękiem i złością, ogrom radości. Tymoteusz wystąpił z powodzeniem w dwóch rolach jednocześnie: z wielkim zaangażowaniem prowadził zajęcia i trzymał przestrzeń, a jednocześnie sam, tak jak my, procesował i doświadczał."*
+> **— Darek**, warsztaty „Mężczyzna w relacji"
 
 ---
 
@@ -172,10 +187,8 @@ Kiedy miejsca się skończą, kohorta jest zamknięta.
 
 **Przycisk (CTA):** Zajmuję miejsce w pierwszej kohorcie
 
-> ⚑ **Decyzja do podjęcia — gwarancja.** Model jest teraz jednorazowy (nie subskrypcja), więc dawne „zrezygnujesz w każdej chwili" nie pasuje. Dwie opcje:
-> **(a)** bez gwarancji — spójne z językiem zobowiązania inicjacji, albo
-> **(b)** „gwarancja pierwszej sesji" — jeśli po pierwszym spotkaniu czujesz, że to nie dla Ciebie, zwracamy całość.
-> Opcja (b) obniża próg wejścia i zwykle podnosi konwersję pierwszej kohorty. Wasza decyzja — daj znać, którą wstawiam.
+**Gwarancja pierwszej sesji.**
+Przyjdź na pierwsze spotkanie. Jeśli po nim czujesz, że to nie jest miejsce dla Ciebie — zwracamy całość, bez pytań.
 
 ---
 
@@ -201,6 +214,9 @@ Część wprowadzająca — tak. Praca w kręgu odbywa się tylko na żywo; to, 
 
 **Dlaczego 999 zł, skoro docelowo 3 600?**
 Bo to pierwsza kohorta. Mniej świadectw, wspólnie docieramy program, znamy się po imieniu. Bierzesz założycielską cenę i zamrażasz ją dla siebie — kolejne kohorty będą droższe.
+
+**Co jeśli wejdę i to jednak nie dla mnie?**
+Masz gwarancję pierwszej sesji. Przychodzisz na pierwsze spotkanie — jeśli czujesz, że to nie ten moment lub nie to miejsce, zwracamy Ci całość. Bez pytań.
 
 **Czy mogę dołączyć później?**
 Kohorta rusza 1 listopada i idzie razem od pierwszego tygodnia. Kto wejdzie, ten wchodzi na całe przejście. Następna szansa to kolejna kohorta — w wyższej cenie.
