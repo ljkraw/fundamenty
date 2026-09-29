@@ -257,6 +257,7 @@ Gwarancja pierwszej sesji: jeśli po pierwszym spotkaniu czujesz, że to nie dla
 Bezpieczna płatność przez Stripe. Kupując, akceptujesz regulamin (link).
 
 **Link rozwijający formularz pytań:** Masz pytania albo wolisz najpierw porozmawiać?
+**Pod linkiem, zawsze widoczne (dla tych, którzy chcą napisać od razu, bez formularza):** Możesz też napisać bezpośrednio: tymoteusz@meskastronaemocji.pl
 
 ### Formularz pytań (rozwijany pod linkiem powyżej)
 
@@ -264,11 +265,11 @@ Bezpieczna płatność przez Stripe. Kupując, akceptujesz regulamin (link).
 - Pole: E-mail — podpowiedź „Na ten adres dostaniesz potwierdzenie."
 - Pole: **O co chcesz zapytać?** — podpowiedź „Jedno zdanie wystarczy."
 - **Przycisk:** Wysyłam pytanie
-- **Mikrokopia pod przyciskiem:** Odpiszemy w ciągu 24 godzin. Możesz też napisać wprost: ⚑ {{EMAIL}}
+- **Mikrokopia pod przyciskiem:** Odpiszemy w ciągu 24 godzin. Możesz też napisać wprost: tymoteusz@meskastronaemocji.pl
 
 **Po wysłaniu (ekran potwierdzenia):**
 Pytanie wysłane. Dziękujemy za pytanie.
-Odpiszemy w ciągu 24 godzin. Możesz też napisać wprost: ⚑ {{EMAIL}}
+Odpiszemy w ciągu 24 godzin. Możesz też napisać wprost: tymoteusz@meskastronaemocji.pl
 
 ---
 
@@ -284,6 +285,6 @@ Dziękuję za zaufanie. Co dalej:
 2. W tym samym mailu zapiszesz się do swojego podstolika.
 3. Pierwsza sesja na żywo: 1 listopada, ⚑ {{GODZINA}}.
 
-Pytania? ⚑ {{EMAIL}}
+Pytania? tymoteusz@meskastronaemocji.pl
 
 — Tymoteusz
