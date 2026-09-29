@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Jesteś w pierwszej kohorcie — Fundamenty</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;1,300&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --night-900: #070e1b;
+    --night-800: #0b1526;
+    --night-700: #101f36;
+    --night-600: #172944;
+    --star-200: #f3f0e8;
+    --star-300: #cfd6e3;
+    --star-400: #94a3bc;
+    --flame-300: #fbe3ae;
+    --flame-500: #e9a23b;
+    --ember-500: #c8462a;
+    --border-subtle: rgba(243, 240, 232, 0.08);
+    --border-default: rgba(243, 240, 232, 0.16);
+    --border-fire: rgba(233, 162, 59, 0.42);
+    --gradient-nightfall: radial-gradient(120% 82% at 50% 0%, #172944 0%, #0b1526 56%, #070e1b 100%);
+    --font-display: "Newsreader", Georgia, serif;
+    --font-sans: "Barlow", "Helvetica Neue", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--night-800);
+    background-image: var(--gradient-nightfall);
+    background-attachment: fixed;
+    color: var(--star-200);
+    font: 400 17px/1.6 var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: clamp(24px, 6vw, 64px) clamp(20px, 5vw, 48px);
+  }
+  a { color: var(--flame-500); text-decoration: none; border-bottom: 1px solid var(--border-fire); }
+  a:hover { color: var(--flame-300); border-bottom-color: var(--flame-300); }
+  .brand {
+    display: block;
+    text-align: center;
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--star-400);
+    text-decoration: none;
+    border-bottom: none;
+    margin-bottom: clamp(32px, 6vw, 56px);
+  }
+  .brand:hover { color: var(--star-200); }
+  .card {
+    width: min(560px, 100%);
+    margin: 0 auto;
+    border: 1px solid var(--border-default);
+    background: var(--night-700);
+    border-radius: 8px;
+    padding: clamp(28px, 5vw, 56px);
+    box-shadow: 0 28px 64px -26px rgba(3, 7, 14, 0.88);
+  }
+  h1 {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: clamp(28px, 4vw, 40px);
+    line-height: 1.12;
+    letter-spacing: -0.01em;
+    margin: 0 0 clamp(20px, 4vw, 32px);
+    color: var(--star-200);
+  }
+  p { margin: 0; }
+  .lead {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: clamp(18px, 2vw, 21px);
+    color: var(--star-300);
+    margin-bottom: clamp(20px, 4vw, 28px);
+  }
+  ol {
+    list-style: none;
+    margin: 0 0 clamp(24px, 4vw, 36px);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  ol li {
+    display: flex;
+    gap: 16px;
+    align-items: baseline;
+  }
+  ol li::before {
+    counter-increment: step;
+    content: counter(step);
+    flex: none;
+    font-family: var(--font-display);
+    font-size: 15px;
+    color: var(--flame-500);
+    border: 1px solid var(--border-fire);
+    border-radius: 999px;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ol { counter-reset: step; }
+  ol li span { color: var(--star-300); }
+  .contact {
+    color: var(--star-400);
+    font-size: 15px;
+    padding-top: clamp(20px, 4vw, 28px);
+    margin-top: clamp(20px, 4vw, 28px);
+    border-top: 1px solid var(--border-subtle);
+  }
+  .signoff {
+    display: block;
+    margin-top: clamp(16px, 3vw, 24px);
+    font-family: var(--font-display);
+    font-style: italic;
+    color: var(--star-300);
+  }
+</style>
+</head>
+<body>
+  <div style="width:100%">
+    <a class="brand" href="/">Fundamenty</a>
+    <div class="card">
+      <h1>Jesteś w pierwszej kohorcie.</h1>
+      <p class="lead">Dziękuję za zaufanie. Co dalej:</p>
+      <ol>
+        <li><span>W ciągu 24 godzin dostaniesz maila z zaproszeniem do przestrzeni grupy.</span></li>
+        <li><span>W tym samym mailu zapiszesz się do swojego podstolika.</span></li>
+        <li><span>Pierwsza sesja na żywo: 1 listopada, {{GODZINA}}.</span></li>
+      </ol>
+      <p class="contact">Pytania? {{EMAIL}}</p>
+      <span class="signoff">— Tymoteusz</span>
+    </div>
+  </div>
+</body>
+</html>

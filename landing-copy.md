@@ -91,9 +91,9 @@ To nie jest miejsce dla wszystkich. Jest nas kilkunastu, nie pięciuset — i to
 ## 6 · JAK TO DZIAŁA
 
 **Sesja na żywo z Tymoteuszem — 1× w tygodniu**
-Wprowadzenie w temat tygodnia i praca na żywo: gorące krzesło, Twój realny case. 12 spotkań, około 12 godzin przez cały program. To rdzeń — jedyny moment na żywo z prowadzącym.
+Wprowadzenie w temat tygodnia i praca na żywo: gorące krzesło, Twój realny case. 12 spotkań po około 2 godziny — łącznie około 24 godzin przez cały program. To rdzeń — jedyny moment na żywo z prowadzącym.
 
-**Podstolik — Twój krąg rówieśniczy**
+**Podstolik — Twój krąg do regularnej pracy**
 Zapisujesz się do jednego z pięciu podstolików (4–5 osób, z liderem z grona uczestników). Między sesjami spotykacie się sami i przerabiacie temat tygodnia. Tu rodzi się braterstwo.
 
 **Karta pracy tygodnia**
@@ -136,7 +136,7 @@ Jeśli nie — prawdopodobnie już czujesz, że to jest przestrzeń dla Ciebie.
 
 11 lat pracy własnej: terapia, warsztaty, ceremonie. Przez jego kręgi i warsztaty — łącznie z festiwalami — przeszło już około 700 mężczyzn.
 
-Certyfikowany w Szkole Szamanizmu Roberta Rienta, w szkoleniach biznesowych Adama Grzesika oraz w terapii wspomaganej MDMA. Twórca Męskiej Strony Emocji, autor podcastu, prowadzący wyjazdów Męska Cisza i wypraw dla ojców i synów na Kilimandżaro.
+Certyfikowany w Szkole Szamanizmu Roberta Rienta, w szkoleniach biznesowych Adama Grzesika oraz w terapii wspomaganej MDMA. Twórca Męskiej Strony Emocji, autor podcastu, prowadzący męskie wyjazdy — m.in. Mężczyzna w Relacji, Męska Cisza, rejsy i wyprawy (w tym do Kolumbii z OneRiver.pl).
 
 Nie pracuje z teorii. Pracuje z tego, co realnie dzieje się w mężczyźnie, który siada naprzeciwko.
 
@@ -144,7 +144,10 @@ Nie pracuje z teorii. Pracuje z tego, co realnie dzieje się w mężczyźnie, kt
 
 ## 10 · GŁOSY MĘŻCZYZN
 
-> Głosy z dotychczasowej pracy Tymoteusza na żywo — kręgi, warsztaty i wyprawy. Po pierwszej kohorcie Fundamentów podmienimy je na świadectwa z samego programu.
+> Głosy z pilotażu Fundamentów i z dotychczasowej pracy Tymoteusza na żywo — kręgi, warsztaty i wyprawy.
+
+> *„Szukałem miejsca, gdzie nie trzeba non stop nosić maski, zgrywać terminatora i gdzie nikt nie zacznie cię oceniać, jak powiesz, że jest ciężko. Dopiero tutaj dotarło do mnie, że bycie stuprocentowym facetem to nie jest duszenie wszystkiego w sobie i udawanie, że masz skórę z nosorożca. Prawdziwa siła to mieć jaja, żeby pokazać prawdę. Zawołanie o pomoc to żaden wstyd czy słabość — to jest czysta dojrzałość."*
+> **— Robert „Ramjee" Skrzypek**, pilotaż Fundamentów
 
 > *„Wyprawę z Tymoteuszem polecam każdemu, kto szuka przewodnika i towarzysza najwyższej klasy, osoby godnej zaufania, z ogromnym doświadczeniem, która nie wymądrza się, ale potrafi słuchać, patrzeć i wyczuwać potrzeby innych, jak i wspierać. Tymek poprowadzi grupę, ale też cierpliwie poczeka na tego, kto zostanie z tyłu. Jednocześnie dba o atmosferę i przestrzeganie zasad, dzięki czemu każdy może czuć się bezpiecznie, komfortowo i wyluzować, pomimo ogromnej różnorodności wydarzeń."*
 > **— Witek**, Kolumbia 2026
@@ -167,14 +170,14 @@ Nie pracuje z teorii. Pracuje z tego, co realnie dzieje się w mężczyźnie, kt
 
 **Co dostajesz:**
 
-- 12 sesji na żywo z Tymoteuszem (~12 godzin facylitacji)
-- Cotygodniowy podstolik — Twój krąg rówieśniczy na całe 12 tygodni
+- 12 sesji na żywo z Tymoteuszem (~24 godziny facylitacji)
+- Cotygodniowy podstolik — Twój krąg do regularnej pracy przez całe 12 tygodni
 - 12 kart pracy — po jednej na każdy temat
-- Przestrzeń grupy poza Facebookiem + odpowiedzi Tymka od poniedziałku do piątku
+- Przestrzeń grupy poza Facebookiem + odpowiedzi Tymoteusza od poniedziałku do piątku
 - Nagrania części wprowadzających
 
 **Cena docelowa programu: 3 600 zł.**
-Tyle są warte same godziny na żywo z prowadzącym w rejestrze pracy indywidualnej — zanim doliczymy podstoliki, karty pracy i całą resztę.
+Same 24 godziny na żywo z prowadzącym kosztowałyby w pracy indywidualnej więcej. A do tego dochodzą podstoliki, karty pracy i cała reszta.
 
 **Dla pierwszej kohorty: 999 zł.**
 
@@ -215,6 +218,9 @@ Część wprowadzająca — tak. Praca w kręgu odbywa się tylko na żywo; to, 
 **Dlaczego 999 zł, skoro docelowo 3 600?**
 Bo to pierwsza kohorta. Mniej świadectw, wspólnie docieramy program, znamy się po imieniu. Bierzesz założycielską cenę i zamrażasz ją dla siebie — kolejne kohorty będą droższe.
 
+**Jak wygląda płatność?**
+Jednorazowo 999 zł albo w 3 miesięcznych ratach po 333 zł. Płacisz kartą przez Stripe. Zaraz po płatności dostajesz maila z dalszymi krokami.
+
 **Co jeśli wejdę i to jednak nie dla mnie?**
 Masz gwarancję pierwszej sesji. Przychodzisz na pierwsze spotkanie — jeśli czujesz, że to nie ten moment lub nie to miejsce, zwracamy Ci całość. Bez pytań.
 
@@ -231,3 +237,53 @@ Albo zacząć teraz — z kilkunastoma mężczyznami, którzy też przestali uda
 Pierwsza kohorta rusza 1 listopada. Miejsc jest kilkanaście.
 
 **Przycisk (CTA):** Zajmuję miejsce w pierwszej kohorcie
+
+---
+
+## 14 · MODAL „ZAJMUJĘ MIEJSCE"
+
+Otwierają go przyciski CTA w hero, ofercie i finale.
+
+**Eyebrow:** Pierwsza kohorta · start 1 listopada
+**Nagłówek:** Zajmuję miejsce.
+
+Limit 15–20 mężczyzn. Wybierz formę płatności.
+
+**Przycisk (główny, wypełniony):** Płacę jednorazowo — 999 zł → link Stripe (płatność jednorazowa)
+**Przycisk (drugorzędny, outline):** Płacę w 3 ratach — 3 × 333 zł → link Stripe (płatność ratalna)
+
+Gwarancja pierwszej sesji: jeśli po pierwszym spotkaniu czujesz, że to nie dla Ciebie — zwracamy całość.
+
+Bezpieczna płatność przez Stripe. Kupując, akceptujesz regulamin (link).
+
+**Link rozwijający formularz pytań:** Masz pytania albo wolisz najpierw porozmawiać?
+
+### Formularz pytań (rozwijany pod linkiem powyżej)
+
+- Pole: Imię
+- Pole: E-mail — podpowiedź „Na ten adres dostaniesz potwierdzenie."
+- Pole: **O co chcesz zapytać?** — podpowiedź „Jedno zdanie wystarczy."
+- **Przycisk:** Wysyłam pytanie
+- **Mikrokopia pod przyciskiem:** Odpiszemy w ciągu 24 godzin. Możesz też napisać wprost: ⚑ {{EMAIL}}
+
+**Po wysłaniu (ekran potwierdzenia):**
+Pytanie wysłane. Dziękujemy za pytanie.
+Odpiszemy w ciągu 24 godzin. Możesz też napisać wprost: ⚑ {{EMAIL}}
+
+---
+
+## 15 · STRONA PODZIĘKOWANIA (`/dziekujemy`)
+
+> ⚑ Strona noindex, w tym samym stylu co landing. Wyświetla się po udanej płatności Stripe.
+
+**Nagłówek:** Jesteś w pierwszej kohorcie.
+
+Dziękuję za zaufanie. Co dalej:
+
+1. W ciągu 24 godzin dostaniesz maila z zaproszeniem do przestrzeni grupy.
+2. W tym samym mailu zapiszesz się do swojego podstolika.
+3. Pierwsza sesja na żywo: 1 listopada, ⚑ {{GODZINA}}.
+
+Pytania? ⚑ {{EMAIL}}
+
+— Tymoteusz
