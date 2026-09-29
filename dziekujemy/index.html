@@ -5,6 +5,62 @@
 <title>Jesteś w pierwszej kohorcie — Fundamenty</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
+<script>
+// Meta Pixel, gated behind cookie consent (mse_consent in localStorage).
+// The fbevents.js script is only ever requested once consent is granted -
+// nothing is loaded or sent to facebook.com/facebook.net before that.
+(function () {
+  var PIXEL_ID = '24922468244103938';
+  var CONSENT_KEY = 'mse_consent';
+
+  function loadPixel() {
+    if (window.fbq) return;
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('consent', 'revoke');
+    fbq('init', PIXEL_ID);
+    fbq('consent', 'grant');
+  }
+
+  function getConsent() {
+    try { return localStorage.getItem(CONSENT_KEY); } catch (e) { return null; }
+  }
+
+  function firePurchase() {
+    var params = new URLSearchParams(location.search);
+    var plan = params.get('plan') || 'nieznany';
+    window.mseConsent.track('Purchase', { value: 999, currency: 'PLN', content_name: plan });
+  }
+
+  window.mseConsent = {
+    get: getConsent,
+    grant: function () {
+      try { localStorage.setItem(CONSENT_KEY, 'granted'); } catch (e) {}
+      loadPixel();
+      window.mseConsent.track('PageView');
+    },
+    deny: function () {
+      try { localStorage.setItem(CONSENT_KEY, 'denied'); } catch (e) {}
+      if (window.fbq) fbq('consent', 'revoke');
+    },
+    track: function (name, params) {
+      if (window.fbq) fbq('track', name, params);
+    },
+  };
+
+  if (getConsent() === 'granted') {
+    loadPixel();
+    window.mseConsent.track('PageView');
+    firePurchase();
+  }
+})();
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;1,300&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -129,6 +185,62 @@
     font-style: italic;
     color: var(--star-300);
   }
+  .settings-link {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 12px;
+    color: var(--star-400);
+    border-bottom: 1px solid var(--border-default);
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    font-family: var(--font-sans);
+  }
+  .settings-link:hover { color: var(--star-200); }
+  .cookie-banner {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 70;
+    padding: 16px;
+  }
+  .cookie-banner[hidden] { display: none; }
+  .cookie-banner .card {
+    width: 100%;
+    margin: 0;
+    padding: 24px;
+  }
+  .cookie-banner p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--star-300);
+    margin-bottom: 16px;
+  }
+  .cookie-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .cookie-btn {
+    flex: 1;
+    min-width: 140px;
+    padding: 13px 24px;
+    background: transparent;
+    color: var(--star-200);
+    border: 1px solid var(--border-fire);
+    border-radius: 2px;
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .cookie-btn:hover { color: var(--flame-300); border-color: var(--flame-300); }
+  @media (min-width: 700px) {
+    .cookie-banner { left: 24px; right: auto; bottom: 24px; padding: 0; max-width: 560px; }
+  }
 </style>
 </head>
 <body>
@@ -144,7 +256,40 @@
       </ol>
       <p class="contact">Pytania? {{EMAIL}}</p>
       <span class="signoff">— Tymoteusz</span>
+      <button type="button" class="settings-link" id="cookie-settings-link">Ustawienia cookies</button>
     </div>
   </div>
+
+  <div class="cookie-banner" id="cookie-banner" hidden>
+    <div class="card">
+      <p>
+        Ta strona używa plików cookies, żeby mierzyć skuteczność reklam na Facebooku i Instagramie.
+        Możesz się zgodzić albo nie — strona działa tak samo.
+        <a href="{{POLITYKA_URL}}">Polityka prywatności</a>
+      </p>
+      <div class="cookie-actions">
+        <button type="button" class="cookie-btn" id="cookie-accept">Akceptuję</button>
+        <button type="button" class="cookie-btn" id="cookie-reject">Odrzucam</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var banner = document.getElementById('cookie-banner');
+      function show() { banner.hidden = false; }
+      function hide() { banner.hidden = true; }
+      if (window.mseConsent.get() == null) show();
+      document.getElementById('cookie-accept').addEventListener('click', function () {
+        window.mseConsent.grant();
+        hide();
+      });
+      document.getElementById('cookie-reject').addEventListener('click', function () {
+        window.mseConsent.deny();
+        hide();
+      });
+      document.getElementById('cookie-settings-link').addEventListener('click', show);
+    })();
+  </script>
 </body>
 </html>
