@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Polityka prywatności — Fundamenty</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Polityka prywatności programu Fundamenty (Męska Strona Emocji).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;1,300&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --night-900: #070e1b;
+    --night-800: #0b1526;
+    --night-700: #101f36;
+    --night-600: #172944;
+    --star-200: #f3f0e8;
+    --star-300: #cfd6e3;
+    --star-400: #94a3bc;
+    --flame-300: #fbe3ae;
+    --flame-500: #e9a23b;
+    --ember-500: #c8462a;
+    --border-subtle: rgba(243, 240, 232, 0.08);
+    --border-default: rgba(243, 240, 232, 0.16);
+    --border-fire: rgba(233, 162, 59, 0.42);
+    --gradient-nightfall: radial-gradient(120% 82% at 50% 0%, #172944 0%, #0b1526 56%, #070e1b 100%);
+    --font-display: "Newsreader", Georgia, serif;
+    --font-sans: "Barlow", "Helvetica Neue", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--night-800);
+    background-image: var(--gradient-nightfall);
+    background-attachment: fixed;
+    color: var(--star-300);
+    font: 400 17px/1.7 var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    padding: clamp(24px, 6vw, 64px) clamp(20px, 5vw, 48px) clamp(48px, 8vw, 96px);
+  }
+  a { color: var(--flame-500); text-decoration: none; border-bottom: 1px solid var(--border-fire); }
+  a:hover { color: var(--flame-300); border-bottom-color: var(--flame-300); }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  .brand {
+    display: block;
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--star-400);
+    text-decoration: none;
+    border-bottom: none;
+    margin-bottom: clamp(40px, 8vw, 72px);
+  }
+  .brand:hover { color: var(--star-200); }
+  h1 {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: clamp(32px, 5vw, 48px);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    color: var(--star-200);
+    margin: 0 0 16px;
+  }
+  .meta {
+    font-size: 14px;
+    color: var(--star-400);
+    margin: 0 0 clamp(32px, 6vw, 48px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+  }
+  .meta strong { color: var(--star-300); font-weight: 600; }
+  .lead {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: clamp(18px, 2vw, 21px);
+    line-height: 1.6;
+    color: var(--star-300);
+    margin: 0 0 clamp(40px, 7vw, 64px);
+    max-width: 60ch;
+  }
+  section { padding-top: clamp(32px, 6vw, 48px); border-top: 1px solid var(--border-subtle); }
+  section:first-of-type { padding-top: 0; border-top: none; }
+  h2 {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: clamp(22px, 3vw, 28px);
+    line-height: 1.2;
+    color: var(--star-200);
+    margin: 0 0 20px;
+  }
+  h3 {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--flame-500);
+    margin: 28px 0 12px;
+  }
+  p { margin: 0 0 18px; max-width: 68ch; }
+  p:last-child { margin-bottom: 0; }
+  strong { color: var(--star-200); font-weight: 600; }
+  ul, ol { margin: 0 0 18px; padding-left: 22px; max-width: 68ch; }
+  li { margin-bottom: 8px; }
+  li:last-child { margin-bottom: 0; }
+  .org-card {
+    background: var(--night-700);
+    border: 1px solid var(--border-default);
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin: 0 0 18px;
+    max-width: 68ch;
+  }
+  .org-card p { margin: 0 0 4px; }
+  .org-card p:last-child { margin-bottom: 0; }
+  .org-card .org-name { color: var(--star-200); font-weight: 600; font-size: 17px; margin-bottom: 8px; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; background: var(--night-700); padding: 2px 6px; border-radius: 3px; font-size: 0.88em; color: var(--star-200); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="brand" href="/">Fundamenty</a>
+
+    <h1>Polityka prywatności</h1>
+    <p class="meta">
+      <span><strong>Serwis:</strong> fundamenty.meskastronaemocji.pl</span>
+      <span><strong>Obowiązuje od:</strong> 1 października 2026 r.</span>
+    </p>
+    <p class="lead">Ta polityka wyjaśnia, jakie dane osobowe zbieramy w związku z programem Fundamenty, po co to robimy, komu je powierzamy i jakie masz prawa. Piszemy prosto, bez prawniczego żargonu tam, gdzie się da.</p>
+
+    <section>
+      <h2>1. Administrator danych</h2>
+      <p>Administratorem Twoich danych osobowych jest:</p>
+      <div class="org-card">
+        <p class="org-name">Inner Compass Spółka z ograniczoną odpowiedzialnością</p>
+        <p>ul. Mickiewicza 1, 57-410 Ścinawka Średnia</p>
+        <p>NIP: 8851649176</p>
+        <p>REGON: 544816826</p>
+        <p>KRS: 0001242446</p>
+      </div>
+      <p>W sprawach dotyczących danych osobowych napisz do nas na adres: <strong><a href="mailto:tymoteusz@meskastronaemocji.pl">tymoteusz@meskastronaemocji.pl</a></strong>.</p>
+    </section>
+
+    <section>
+      <h2>2. Jakie dane zbieramy i po co</h2>
+
+      <h3>2.1. Formularz pytań</h3>
+      <p>Kiedy wysyłasz pytanie przez formularz na stronie, przetwarzamy Twoje imię, adres e-mail i treść pytania.</p>
+      <ul>
+        <li><strong>Cel:</strong> odpowiedź na Twoje pytanie. <strong>Podstawa prawna:</strong> art. 6 ust. 1 lit. b RODO (działania na Twoje żądanie przed zawarciem umowy) oraz art. 6 ust. 1 lit. f RODO (nasz prawnie uzasadniony interes, czyli udzielenie odpowiedzi).</li>
+        <li><strong>Cel:</strong> przesyłanie Ci wiadomości e-mail dotyczących programu Fundamenty. <strong>Podstawa prawna:</strong> Twoja zgoda (art. 6 ust. 1 lit. a RODO) wyrażona przy wysyłaniu formularza, zgodnie z przepisami Prawa komunikacji elektronicznej. Zgodę możesz wycofać w każdej chwili, klikając link rezygnacji w stopce każdej wiadomości albo pisząc do nas.</li>
+      </ul>
+      <p>Prosimy, żebyś w formularzu nie podawał informacji o swoim zdrowiu ani innych danych szczególnie wrażliwych. Do odpowiedzi na pytanie nie są potrzebne.</p>
+
+      <h3>2.2. Zakup programu</h3>
+      <p>Płatności obsługuje Stripe. Przy zakupie przetwarzamy Twoje imię i nazwisko, adres e-mail, numer telefonu, informacje o wybranym planie płatności (jednorazowo lub w ratach) oraz dane niezbędne do rozliczenia. Pełnych danych karty płatniczej nie otrzymujemy. Przetwarza je wyłącznie Stripe.</p>
+      <ul>
+        <li><strong>Cel:</strong> zawarcie i wykonanie umowy, czyli udział w programie, kontakt organizacyjny, zaproszenie do przestrzeni grupy i przydział do podstolika. <strong>Podstawa prawna:</strong> art. 6 ust. 1 lit. b RODO.</li>
+        <li><strong>Cel:</strong> wystawienie dokumentów księgowych i prowadzenie rozliczeń. <strong>Podstawa prawna:</strong> art. 6 ust. 1 lit. c RODO (obowiązki wynikające z przepisów podatkowych i o rachunkowości).</li>
+        <li><strong>Cel:</strong> obsługa reklamacji, zwrotów (w tym z gwarancji pierwszej sesji) oraz ustalenie, dochodzenie lub obrona roszczeń. <strong>Podstawa prawna:</strong> art. 6 ust. 1 lit. f RODO.</li>
+      </ul>
+
+      <h3>2.3. Udział w programie</h3>
+      <p>W trakcie programu Twoje dane (imię, adres e-mail, wizerunek i głos podczas spotkań online, treści publikowane w przestrzeni grupy) przetwarzamy w celu prowadzenia programu. <strong>Podstawą jest art. 6 ust. 1 lit. b RODO.</strong></p>
+      <p>Nagrywamy wyłącznie część wprowadzającą sesji, w której mówi prowadzący. Praca w kręgu i dzielenie się uczestników <strong>nie są nagrywane</strong>. To, co mówisz o sobie w kręgu, zostaje w kręgu. Obowiązuje to także nas.</p>
+
+      <h3>2.4. Pliki cookies i Meta Pixel</h3>
+      <p>Szczegóły opisujemy w punkcie 7. W skrócie: jeśli wyrazisz zgodę, używamy narzędzia Meta Pixel do mierzenia skuteczności reklam na Facebooku i Instagramie.<br><strong>Podstawa prawna:</strong> Twoja zgoda (art. 6 ust. 1 lit. a RODO).</p>
+    </section>
+
+    <section>
+      <h2>3. Komu przekazujemy dane</h2>
+      <p>Nie sprzedajemy Twoich danych. Powierzamy je wyłącznie podmiotom, które pomagają nam prowadzić serwis i program, w zakresie niezbędnym do ich zadań:</p>
+      <ul>
+        <li><strong>Vercel Inc.</strong>: hosting strony.</li>
+        <li><strong>ActiveCampaign, LLC</strong>: obsługa listy mailowej i wysyłka wiadomości.</li>
+        <li><strong>Stripe Payments Europe, Ltd.</strong>: obsługa płatności.</li>
+        <li><strong>Meta Platforms Ireland Ltd.</strong>: pomiar skuteczności reklam (tylko po Twojej zgodzie).</li>
+        <li><strong>Google LLC (Gmail)</strong>: obsługa naszej skrzynki e-mail.</li>
+        <li><strong>ActiveCampaign, LLC</strong>: przestrzeń grupy dla uczestników programu.</li>
+        <li><strong>Google LLC (Google Meet)</strong>: spotkania na żywo online.</li>
+        <li><strong>Biuro rachunkowe</strong>: prowadzenie księgowości.</li>
+      </ul>
+      <p>Dane mogą też zostać udostępnione organom publicznym, jeśli wymagają tego przepisy prawa.</p>
+    </section>
+
+    <section>
+      <h2>4. Przekazywanie danych poza Europejski Obszar Gospodarczy</h2>
+      <p>Niektórzy z naszych dostawców (np. Vercel, ActiveCampaign, Meta i Stripe) mają siedzibę w USA albo przetwarzają tam dane. Transfer odbywa się na podstawie decyzji Komisji Europejskiej stwierdzającej odpowiedni stopień ochrony (EU-US Data Privacy Framework) w przypadku podmiotów objętych tym programem albo na podstawie standardowych klauzul umownych zatwierdzonych przez Komisję Europejską.</p>
+    </section>
+
+    <section>
+      <h2>5. Jak długo przechowujemy dane</h2>
+      <ul>
+        <li><strong>Pytania z formularza:</strong> przez czas potrzebny do udzielenia odpowiedzi i prowadzenia rozmowy, nie dłużej niż 12 miesięcy od ostatniego kontaktu, chyba że dołączysz do programu.</li>
+        <li><strong>Wiadomości e-mail o programie:</strong> do czasu wycofania zgody.</li>
+        <li><strong>Dane z zakupu i udziału w programie:</strong> przez czas trwania programu, a następnie do upływu okresu przedawnienia roszczeń.</li>
+        <li><strong>Dokumenty księgowe:</strong> przez 5 lat od końca roku kalendarzowego, w którym upłynął termin płatności podatku, zgodnie z przepisami podatkowymi.</li>
+        <li><strong>Dane z Meta Pixel:</strong> zgodnie z okresem ważności plików cookies opisanym w punkcie 7 albo do wycofania zgody.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>6. Twoje prawa</h2>
+      <p>Masz prawo do:</p>
+      <ul>
+        <li>dostępu do swoich danych i otrzymania ich kopii,</li>
+        <li>sprostowania danych,</li>
+        <li>usunięcia danych,</li>
+        <li>ograniczenia przetwarzania,</li>
+        <li>przenoszenia danych,</li>
+        <li>sprzeciwu wobec przetwarzania opartego na naszym prawnie uzasadnionym interesie,</li>
+        <li>wycofania zgody w dowolnym momencie; wycofanie nie wpływa na zgodność z prawem przetwarzania, które nastąpiło wcześniej.</li>
+      </ul>
+      <p>Żeby skorzystać z tych praw, napisz na <strong><a href="mailto:tymoteusz@meskastronaemocji.pl">tymoteusz@meskastronaemocji.pl</a></strong>. Odpowiemy bez zbędnej zwłoki, najpóźniej w ciągu miesiąca.</p>
+      <p>Masz też prawo złożyć skargę do organu nadzorczego: <strong>Prezes Urzędu Ochrony Danych Osobowych</strong>, ul. Stawki 2, 00-193 Warszawa.</p>
+      <p>Podanie danych jest dobrowolne. Bez adresu e-mail nie możemy jednak odpowiedzieć na pytanie, a bez danych wymaganych przy zakupie nie możemy zawrzeć umowy.</p>
+      <p>Nie podejmujemy wobec Ciebie decyzji w sposób wyłącznie zautomatyzowany, które wywoływałyby skutki prawne lub w podobny sposób istotnie na Ciebie wpływały.</p>
+    </section>
+
+    <section>
+      <h2>7. Pliki cookies i podobne technologie</h2>
+      <p>Przy pierwszej wizycie na stronie pytamy, czy zgadzasz się na użycie cookies marketingowych. Strona działa tak samo niezależnie od Twojej decyzji.</p>
+      <p><strong>Niezbędne:</strong> w pamięci przeglądarki (localStorage) zapisujemy Twoją decyzję dotyczącą cookies (<code>mse_consent</code>), żeby nie pytać Cię przy każdej wizycie. Nie wymaga to zgody.</p>
+      <p><strong>Marketingowe (tylko po zgodzie):</strong> Meta Pixel zapisuje pliki cookies, np. <code>_fbp</code>, ważny do 90 dni. Dzięki nim wiemy, czy ktoś trafił na stronę z reklamy i czy dokonał zakupu. Meta może łączyć te informacje z Twoim kontem na Facebooku lub Instagramie zgodnie z własną polityką prywatności.</p>
+      <p><strong>Zmiana decyzji:</strong> w każdej chwili kliknij „Ustawienia cookies" w stopce strony. Możesz też usunąć cookies w ustawieniach przeglądarki.</p>
+    </section>
+
+    <section>
+      <h2>8. Program dla dorosłych</h2>
+      <p>Fundamenty są przeznaczone wyłącznie dla osób pełnoletnich. Nie zbieramy świadomie danych osób poniżej 18. roku życia.</p>
+    </section>
+
+    <section>
+      <h2>9. Zmiany polityki</h2>
+      <p>Możemy aktualizować tę politykę, np. przy zmianie dostawców lub zakresu usług. Aktualna wersja jest zawsze dostępna na tej stronie, z datą obowiązywania na górze.</p>
+    </section>
+  </div>
+</body>
+</html>
