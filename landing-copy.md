@@ -5,6 +5,7 @@
 > **Przeznaczenie:** czysta kopia do wlania w design (Claude Design). Bez layoutu — tylko treść.
 > **Głos:** bezpośredni, „z miejsca Ja", bez ściemy — tak jak pisze Tymoteusz.
 > Notatki i rzeczy do uzupełnienia oznaczone **⚑**. Nie wchodzą do kopii.
+> **CTA:** jeden, uniform tekst wszędzie — „Dołącz do pierwszej kohorty" (pełna wersja) i „Dołącz" (skrócona, tylko w pasku nawigacji). Wszystkie otwierają ten sam modal „Zajmuję miejsce." — hero, czym są Fundamenty, jak to działa, kto prowadzi, oferta, finał (6 miejsc + pasek nawigacji).
 
 ---
 
@@ -56,6 +57,8 @@ Wchodzisz w konkretnym dniu. Idziesz razem z grupą tych samych kilkunastu męż
 
 To nie jest miejsce dla wszystkich. Jest nas kilkunastu, nie pięciuset — i to jest cała różnica. W małym kręgu Twój temat nie ginie w tłumie.
 
+**Przycisk (CTA):** Dołącz do pierwszej kohorty
+
 ---
 
 ## 5 · PODRÓŻ — 12 TYGODNI, CZTERY RUCHY
@@ -104,6 +107,8 @@ Osobne miejsce z kanałami tematycznymi. Wrzucasz swój temat (możesz anonimowo
 
 > ⚑ Nagrania: część wprowadzająca (wykładowa) dostępna jako replay. Praca w kręgu — tylko na żywo. Wspomnieć jednym zdaniem, jeśli chcecie.
 
+**Przycisk (CTA):** Dołącz do pierwszej kohorty
+
 ---
 
 ## 7 · ZASADY KRĘGU
@@ -139,6 +144,8 @@ Jeśli nie — prawdopodobnie już czujesz, że to jest przestrzeń dla Ciebie.
 Certyfikowany w Szkole Szamanizmu Roberta Rienta, w szkoleniach biznesowych Adama Grzesika oraz w terapii wspomaganej MDMA. Twórca Męskiej Strony Emocji, autor podcastu, prowadzący męskie wyjazdy — m.in. Mężczyzna w Relacji, Męska Cisza, rejsy i wyprawy (w tym do Kolumbii z OneRiver.pl).
 
 Nie pracuje z teorii. Pracuje z tego, co realnie dzieje się w mężczyźnie, który siada naprzeciwko.
+
+**Przycisk (CTA):** Dołącz do pierwszej kohorty
 
 ---
 
@@ -188,7 +195,7 @@ Możesz zapłacić jednorazowo albo rozłożyć na 3 raty po ~333 zł.
 **Start: 1 listopada. Czas trwania: 12 tygodni. Limit: 15–20 mężczyzn.**
 Kiedy miejsca się skończą, kohorta jest zamknięta.
 
-**Przycisk (CTA):** Zajmuję miejsce w pierwszej kohorcie
+**Przycisk (CTA):** Dołącz do pierwszej kohorty
 
 **Gwarancja pierwszej sesji.**
 Przyjdź na pierwsze spotkanie. Jeśli po nim czujesz, że to nie jest miejsce dla Ciebie — zwracamy całość, bez pytań.
@@ -236,7 +243,7 @@ Albo zacząć teraz — z kilkunastoma mężczyznami, którzy też przestali uda
 
 Pierwsza kohorta rusza 1 listopada. Miejsc jest kilkanaście.
 
-**Przycisk (CTA):** Zajmuję miejsce w pierwszej kohorcie
+**Przycisk (CTA):** Dołącz do pierwszej kohorty
 
 ---
 
