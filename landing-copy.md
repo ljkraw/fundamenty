@@ -261,15 +261,18 @@ Bezpieczna płatność przez Stripe. Kupując, akceptujesz regulamin (link).
 
 ### Formularz pytań (rozwijany pod linkiem powyżej)
 
-- Pole: Imię
-- Pole: E-mail — podpowiedź „Na ten adres dostaniesz potwierdzenie."
-- Pole: **O co chcesz zapytać?** — podpowiedź „Jedno zdanie wystarczy."
-- **Przycisk:** Wysyłam pytanie
-- **Mikrokopia pod przyciskiem:** Odpiszemy w ciągu 24 godzin. Możesz też napisać wprost: tymoteusz@meskastronaemocji.pl
+Wysyła się do `/api/pytanie` (Vercel function → ActiveCampaign: contact/sync + tag `fundamenty-pytanie`).
 
-**Po wysłaniu (ekran potwierdzenia):**
-Pytanie wysłane. Dziękujemy za pytanie.
-Odpiszemy w ciągu 24 godzin. Możesz też napisać wprost: tymoteusz@meskastronaemocji.pl
+- Pole: Imię
+- Pole: E-mail — podpowiedź „Na ten adres odpiszemy."
+- Pole: **O co chcesz zapytać?** — podpowiedź „Jedno zdanie wystarczy."
+- Pole ukryte (honeypot, antyspam — niewidoczne dla ludzi)
+- **Przycisk:** Wysyłam pytanie → w trakcie wysyłki: Wysyłam…
+- **Klauzula pod przyciskiem:** Wysyłając pytanie, zgadzasz się na kontakt mailowy w sprawie Fundamentów. Szczegóły: polityka prywatności (link → {{POLITYKA_URL}})
+
+**Stany po wysłaniu:**
+- Sukces: Dzięki. Odpiszemy w ciągu 24 godzin.
+- Błąd: Coś poszło nie tak. Napisz wprost: tymoteusz@meskastronaemocji.pl
 
 ---
 
